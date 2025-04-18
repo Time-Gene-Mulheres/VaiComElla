@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+Vai com Ella: caronas compartilhadas entre mulheres 🚗💜
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vai com Ella é um aplicativo de caronas compartilhadas voltado exclusivamente para o público feminino. Desenvolvido como projeto integrador do bootcamp da Generation Brasil, a plataforma nasce com o propósito de oferecer mais segurança, praticidade e acolhimento para mulheres que desejam se locomover de forma colaborativa em seus trajetos diários.
 
-Currently, two official plugins are available:
+A ideia central do app é criar uma rede de confiança entre motoristas e passageiras, estimulando a mobilidade urbana sustentável e segura. Com uma interface intuitiva e funcionalidades pensadas para o bem-estar das usuárias, o Vai com Ella permite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cadastro de rotas
 
-## Expanding the ESLint configuration
+Solicitação de caronas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Sistema de avaliação entre usuárias
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Filtros de perfil para reforçar a segurança nas conexões
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Mais do que um aplicativo, Vai com Ella representa um passo importante para fortalecer o protagonismo feminino na tecnologia e na mobilidade urbana. O projeto foi desenvolvido com foco em boas práticas de programação, trabalho em equipe, metodologias ágeis e empatia pelo público-alvo.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🚀 Tecnologias Utilizadas
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+React
+
+TypeScript
+
+Vite
+
+ESLint
+
+📦 Instalação e Execução Local
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+bash
+Copiar
+Editar
+# Clone o repositório
+git clone https://github.com/Time-Gene-Mulheres/VaiComElla.git
+
+# Acesse a pasta do projeto
+cd VaiComElla
+
+# Instale as dependências
+yarn install
+
+# Inicie o servidor de desenvolvimento
+yarn dev
+📁 Estrutura do Projeto
+csharp
+Copiar
+Editar
+VaiComElla/
+├── public/
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/          # Páginas principais do app
+│   ├── services/       # Conexões com API e lógicas de negócio
+│   └── App.tsx         # Componente principal
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+🤝 Contribuindo
+Contribuições são super bem-vindas! 💡
+Você pode abrir uma issue com sugestões, relatar bugs ou enviar um pull request com melhorias e novas funcionalidades.
+
+📄 Licença
+Este projeto está licenciado sob a MIT License.
+
+💡 Créditos
+Projeto desenvolvido pelas participantes do bootcamp da Generation Brasil no squad Time Gene Mulheres.
+
